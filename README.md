@@ -32,6 +32,10 @@ Logo is courtesy of <a href="https://twitter.com/viralinfo"> Simon Poulter </a>.
 ### ⚡️AR.js has now an official Documentation!⚡️
 ### Check it out: [AR.js Official Documentation](https://ar-js-org.github.io/AR.js-Docs/).
 
+### 📚 Additional Resources
+- **[FAQ](FAQ.md)** - Frequently Asked Questions
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute and where to get help
+
 If you want to give a first look at AR.js potential, you can continue with this Readme.
 
 -----
@@ -203,6 +207,17 @@ Learn more on the [AR.js Official Documentation](https://ar-js-org.github.io/AR.
 
 **You can find a lot of help on the old [AR.js repositories issues](https://github.com/jeromeetienne/AR.js/issues). Please search on open/closed issues, you may find interesting stuff.**
 
+### Questions and Support
+
+For general questions and support:
+
+1. 📖 Check the **[FAQ](FAQ.md)** for common questions
+2. 📚 Read the **[Official Documentation](https://ar-js-org.github.io/AR.js-Docs/)**
+3. 💬 Ask on **[StackOverflow](https://stackoverflow.com/search?q=ar.js)**
+4. 💭 Join our **[Gitter chatroom](https://gitter.im/AR-js/Lobby)**
+
+**Please don't use GitHub Issues for support questions.** See our [Contributing Guide](CONTRIBUTING.md) for more information.
+
 ### Contributing
 
 From opening a bug report to creating a pull request: every contribution is
@@ -210,13 +225,16 @@ appreciated and welcome. If you're planning to implement a new feature or change
 the api please create an issue first. This way we can ensure that your precious
 work is not in vain.
 
+Please read our **[Contributing Guide](CONTRIBUTING.md)** for detailed information on how to contribute.
+
 ### Issues
 
-If you are having configuration or setup problems, please post
-a question to [StackOverflow](https://stackoverflow.com/search?q=ar.js).
-You can also address the question to us in our [Gitter chatroom](https://gitter.im/AR-js/Lobby)
-
 **If you have discovered a bug or have a feature suggestion, feel free to create an issue on Github.**
+
+Before creating an issue:
+- Make sure you're using the latest version of AR.js
+- Search existing issues (open and closed)
+- Check the [FAQ](FAQ.md) and [documentation](https://ar-js-org.github.io/AR.js-Docs/)
 
 ### Submitting Changes
 
@@ -224,10 +242,13 @@ After getting some feedback, push to your fork and submit a pull request. We
 may suggest some changes or improvements or alternatives, but for small changes
 your pull request should be accepted quickly.
 
+**⚠️ All PRs must target the `dev` branch, not `master`.**
+
 Some things that will increase the chance that your pull request is accepted:
 
 * Follow the existing coding style
 * Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+* Read the [Contributing Guide](CONTRIBUTING.md)
 
 ## Licenses
 
