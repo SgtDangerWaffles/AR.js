@@ -122,12 +122,19 @@ Indoor GPS accuracy is very poor. Location-based AR works best outdoors with cle
 
 ### CORS errors
 
-Use a CORS proxy or host assets on the same domain. Example:
-```
-https://arjs-cors-proxy.herokuapp.com/[your-asset-url]
-```
+CORS (Cross-Origin Resource Sharing) errors occur when loading assets from different domains. Solutions:
 
-Or configure your server to allow CORS.
+1. **Best practice**: Host all assets on the same domain as your app
+2. **Configure your server** to include appropriate CORS headers:
+   ```
+   Access-Control-Allow-Origin: *
+   ```
+3. **Use a CORS proxy** (for development/testing only):
+   - Some public proxies exist but may be unreliable
+   - Consider setting up your own proxy for production
+   - Example format: `https://cors-proxy.example.com/[your-asset-url]`
+
+Note: Always prefer hosting assets properly over using CORS proxies in production.
 
 ### AR content is jittery or unstable
 
