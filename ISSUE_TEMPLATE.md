@@ -3,10 +3,26 @@
 <!-- Before creating an issue please make a search on open and closed issues, maybe your question is already answered. -->
 <!-- ⚠️ Important: please check the old AR.js repository's issues: https://github.com/jeromeetienne/AR.js/issues probably your question had been already answered there ⚠️ -->
 
+---
+
+## ❓ Have a question about using AR.js?
+
+**Please don't use GitHub Issues for support questions.**
+
+Instead, try these resources:
+- 📖 [FAQ](FAQ.md) - Common questions and answers
+- 📚 [Official Documentation](https://ar-js-org.github.io/AR.js-Docs/) - Comprehensive guides
+- 💬 [Gitter Chat](https://gitter.im/AR-js/Lobby) - Community support
+- 🔍 [StackOverflow](https://stackoverflow.com/search?q=ar.js) - Q&A platform
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on getting help.
+
+---
+
 **Do you want to request a *feature* or report a *bug*?**
 
-<!-- Please ask questions/requests of support on StackOverflow or on the AR.js Gitter (https://gitter.im/AR-js). -->
-<!-- Issues that are not AR.js bugs or feature requests will be closed. -->
+<!-- Issues are ONLY for bug reports and feature requests. -->
+<!-- Support questions will be closed. Please use the resources above. -->
 
 **What is the current behavior?**
 
